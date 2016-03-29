@@ -1,0 +1,179 @@
+body{
+	padding:0;
+	margin:0;
+	background-color: white;
+	font-family: Arial;	
+	font-size:62.5%;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	
+}
+header{
+	background-color: #690B18;
+	height: 5rem;
+	overflow: hidden;
+	margin:0;
+	padding:0;
+}
+
+div{
+	margin:	0; 
+	padding:0;
+	
+}
+p{
+	font-size: 18px;
+}
+.bodyStructure{
+	display: block;
+	z-index:10;
+	margin:0;
+	padding: 0;
+}
+.mainPart{
+	z-index:8;
+	background-color: #FFFFFF;
+	display:inline-block;
+	text-align: center;
+	float: left;
+	height:100%;
+	min-width: 210px;
+	float: center;
+	margin: 0; 
+	padding: 0;
+	border: 0;
+}
+.menueElements{
+	display: inline-block;
+	width: 400px;
+	text-align: center;
+	font-size: 5rem;
+	font-family: script, arial;
+}
+
+.menueButtons{
+	height:100%;
+	float: left;
+	position: relative; 
+	display: inline-block;
+	max-width: 200px;
+	width: 100px;
+	font-size: 1rem;
+	border:0;
+	background-color: #690B18;
+}
+.searchSubmit ,.inputSearch{
+	margin: 0;
+	border: 2px solid #690B18;
+	border-radius: 3px;
+	background-color: white;
+}
+
+.searchField{
+ padding: 1rem 0 1rem 0;
+ border-bottom: 5px solid #690B18;
+}
+
+.mainBodyPart{
+	display: block;
+	
+}
+
+#mainBody{
+	height: calc(100% - 5rem); 
+	max-height: 100%; 
+	z-index: 10;
+	margin: 0; 
+	padding: 0;
+	border: 0;
+	float: auto;
+	
+}
+
+#mainContent{
+	background-color: #FFFFFF;
+	border-left: 6px solid #690B18;
+	border-right: 6px solid #690B18;
+	max-height: 100%; 
+	width:calc(100% - 439px); 
+	margin:0; 
+	padding: 0 3px 0 3px;
+	text-align: center;
+	bottom: 2rem;
+	overflow: auto;
+}
+
+#menueButton{
+	position: absolute;
+	right:0px;
+	width: 200px;
+	height: 5rem;
+	top:0;
+}
+#imageAdd{
+	background-image: url(useradd.png);
+	background-repeat: no-repeat;
+	background-position: 0px 1.3rem;
+}
+
+#pictureBlock{
+	height:200px;
+	width:100%;
+	overflow: hidden;
+	
+}
+
+
+/* picture styles*/
+
+
+#picture1, #picture5{
+	width: 25%;
+	height: 60%;
+	z-index: 6;
+	position: relative;
+	display: hidden;
+}
+
+#picture1{
+	right:19%;
+}
+
+#picture5{
+	bottom: 163%;
+	left:37%;
+}
+
+#picture2, #picture4{
+	width:33%;
+	height: 80%; 
+	z-index: 7;
+	position: relative;
+
+}
+
+#picture2{
+	right:31%;
+	top:10%;
+}
+
+#picture4{
+	bottom: 91.3%;
+	right:2%;
+	
+}
+
+#picture3{
+	z-index: 10;
+	width:42%;
+	height: 100%;
+	position: relative;
+	left: 17%;
+	bottom: 82%;
+}
+
+#picture1:hover, #picture2:hover, #picture3:hover, #picture4:hover,#picture5:hover{
+	z-index:11;	
+	box-shadow: 0px 0px 2px blue;
+}

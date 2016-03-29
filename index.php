@@ -75,9 +75,12 @@
 				<div class="mainBodyPart" id="contendPart">
 				
 					<?php 
-					for($i = 1; $i <= 25; $i++){
+					for($i = 1; $i <= 15; $i++){
 						echo "test".$i."<br>"; 
 					}
+                                        for($t = 0; $t < 25; $t++){
+                                            echo "Test ".$t;
+                                        }
 					?>
 				</div>			
 			</div>
